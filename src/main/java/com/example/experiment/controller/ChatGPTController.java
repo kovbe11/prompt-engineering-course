@@ -16,7 +16,6 @@ public class ChatGPTController {
         this.chatClient = chatClient;
     }
 
-    // key not working yet
     @GetMapping("/ai/generate")
     public Map<String, String> generate(
             @RequestParam(
